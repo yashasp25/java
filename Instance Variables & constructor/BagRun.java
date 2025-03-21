@@ -10,6 +10,7 @@ public class BagRun {
         Bag bag8 = new Bag();
         Bag bag9 = new Bag();
         Bag bag10 = new Bag();
+		
         bag1.brand = "Nike";
         bag1.capacity = 20;
         bag1.price = 1200.50;
@@ -60,15 +61,15 @@ public class BagRun {
         bag10.price = 5000.99;
         bag10.isWaterproof = false;
 
-        System.out.println("Bag 1: " + bag1.brand + ", " + bag1.capacity + "L, price: " + bag1.price + ", Waterproof: " + bag1.isWaterproof);
-        System.out.println("Bag 2: " + bag2.brand + ", " + bag2.capacity + "L, price: " + bag2.price + ", Waterproof: " + bag2.isWaterproof);
-        System.out.println("Bag 3: " + bag3.brand + ", " + bag3.capacity + "L, price: " + bag3.price + ", Waterproof: " + bag3.isWaterproof);
-        System.out.println("Bag 4: " + bag4.brand + ", " + bag4.capacity + "L, price: " + bag4.price + ", Waterproof: " + bag4.isWaterproof);
-        System.out.println("Bag 5: " + bag5.brand + ", " + bag5.capacity + "L, price: " + bag5.price + ", Waterproof: " + bag5.isWaterproof);
-        System.out.println("Bag 6: " + bag6.brand + ", " + bag6.capacity + "L, price: " + bag6.price + ", Waterproof: " + bag6.isWaterproof);
-        System.out.println("Bag 7: " + bag7.brand + ", " + bag7.capacity + "L, price: " + bag7.price + ", Waterproof: " + bag7.isWaterproof);
-        System.out.println("Bag 8: " + bag8.brand + ", " + bag8.capacity + "L, price: " + bag8.price + ", Waterproof: " + bag8.isWaterproof);
-        System.out.println("Bag 9: " + bag9.brand + ", " + bag9.capacity + "L, price: " + bag9.price + ", Waterproof: " + bag9.isWaterproof);
-        System.out.println("Bag 10: " + bag10.brand + ", " + bag10.capacity + "L, price: " + bag10.price + ", Waterproof: " + bag10.isWaterproof);
+        System.out.println("Bag 1: " + bag1.brand + ", " + bag1.capacity + ", price: " + bag1.price + ", Waterproof: " + bag1.isWaterproof);
+        System.out.println("Bag 2: " + bag2.brand + ", " + bag2.capacity + ", price: " + bag2.price + ", Waterproof: " + bag2.isWaterproof);
+        System.out.println("Bag 3: " + bag3.brand + ", " + bag3.capacity + ", price: " + bag3.price + ", Waterproof: " + bag3.isWaterproof);
+        System.out.println("Bag 4: " + bag4.brand + ", " + bag4.capacity + ", price: " + bag4.price + ", Waterproof: " + bag4.isWaterproof);
+        System.out.println("Bag 5: " + bag5.brand + ", " + bag5.capacity + ", price: " + bag5.price + ", Waterproof: " + bag5.isWaterproof);
+        System.out.println("Bag 6: " + bag6.brand + ", " + bag6.capacity + ", price: " + bag6.price + ", Waterproof: " + bag6.isWaterproof);
+        System.out.println("Bag 7: " + bag7.brand + ", " + bag7.capacity + ", price: " + bag7.price + ", Waterproof: " + bag7.isWaterproof);
+        System.out.println("Bag 8: " + bag8.brand + ", " + bag8.capacity + ", price: " + bag8.price + ", Waterproof: " + bag8.isWaterproof);
+        System.out.println("Bag 9: " + bag9.brand + ", " + bag9.capacity + ", price: " + bag9.price + ", Waterproof: " + bag9.isWaterproof);
+        System.out.println("Bag 10: " + bag10.brand + ", " + bag10.capacity + ", price: " + bag10.price + ", Waterproof: " + bag10.isWaterproof);
     }
 }
