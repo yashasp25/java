@@ -6,6 +6,8 @@ class Clip {
     }
     
     void hold() {
-        System.out.println("Holding with " + color + " clip");
+        if (this != null) {
+            System.out.println("Holding with " + color + " clip");
+        }
     }
 }

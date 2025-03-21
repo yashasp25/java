@@ -12,17 +12,23 @@ class Virat {
     }
     
     void play() {
-        cricket.watch();
-        cricket.profit();
+        if (cricket != null) {
+            cricket.watch();
+            cricket.profit();
+        }
     }
     
     void clean() {
-        brush.clean();
-        brush.scrub();
+        if (brush != null) {
+            brush.clean();
+            brush.scrub();
+        }
     }
     
     void relax() {
-        ticket.buy();
-        ticket.sell();
+        if (ticket != null) {
+            ticket.buy();
+            ticket.sell();
+        }
     }
 }

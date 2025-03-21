@@ -6,11 +6,15 @@ class Cricket {
     }
     
     void watch() {
-        ticket.buy();
-        System.out.println("Watching Cricket Match...");
+        if (ticket != null) {
+            ticket.buy();
+            System.out.println("Watching Cricket Match...");
+        }
     }
     
     void profit() {
-        ticket.sell();
+        if (ticket != null) {
+            ticket.sell();
+        }
     }
 }

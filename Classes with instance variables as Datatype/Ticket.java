@@ -8,10 +8,14 @@ class Ticket {
     }
     
     void buy() {
-        System.out.println("Ticket bought: " + type + " for $" + cost);
+        if (this != null) {
+            System.out.println("Ticket bought: " + type + " for $" + cost);
+        }
     }
     
     void sell() {
-        System.out.println("Ticket sold: " + type + " for $" + cost);
+        if (this != null) {
+            System.out.println("Ticket sold: " + type + " for $" + cost);
+        }
     }
 }

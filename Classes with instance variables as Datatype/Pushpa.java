@@ -1,7 +1,11 @@
 class Pushpa {
     void useClip(Clip[] clips) {
-        for (Clip clip : clips) {
-            clip.hold();
+        if (clips != null) {
+            for (Clip clip : clips) {
+                if (clip != null) {
+                    clip.hold();
+                }
+            }
         }
     }
 }

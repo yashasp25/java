@@ -6,10 +6,14 @@ class Brush {
     }
     
     void clean() {
-        System.out.println("Cleaning with " + color + " brush");
+        if (this != null) {
+            System.out.println("Cleaning with " + color + " brush");
+        }
     }
     
     void scrub() {
-        System.out.println("Scrubbing with " + color + " brush");
+        if (this != null) {
+            System.out.println("Scrubbing with " + color + " brush");
+        }
     }
 }
