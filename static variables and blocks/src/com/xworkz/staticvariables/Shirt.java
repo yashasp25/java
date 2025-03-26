@@ -5,6 +5,9 @@ public class Shirt {
 
     public String color;
 
+    public Shirt (){
+        System.out.println("Object created");
+    }
 
     static {
         buttons = 7;
