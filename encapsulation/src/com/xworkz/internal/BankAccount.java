@@ -4,7 +4,7 @@ public class BankAccount {
 
     String name ;
 
-    private Long account_number;
+    private Long account_number = 78146164699L;
     private String password;
 
     public Long getAccount_number(){
