@@ -2,7 +2,6 @@ package com.xworkz.instancevariables;
 
 public class Main {
     public static void main(String[] args) {
-        // Using classes as local variables
         Jail jail = new Jail("Alcatraz", "USA", "John Doe", 500);
         Satellite satellite = new Satellite(SatelliteType.COMMUNICATION, 500000.0, 1000.5, 200.0);
         IdCard idCard = new IdCard("Plastic", new String[]{"Red", "Blue"}, 5.5, "ABC Corp");
