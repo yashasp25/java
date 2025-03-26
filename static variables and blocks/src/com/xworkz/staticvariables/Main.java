@@ -5,7 +5,7 @@ public class Main {
         Shirt shirt = new Shirt();
         shirt.color = "Blue";
         System.out.println("Shirt  ...");
-        System.out.println("Buttons : "+Shirt.buttons+ ". Color : "+shirt.color);
+        System.out.println("Buttons : "+Shirt.buttons+ ", Color : "+shirt.color);
 
     }
 }
