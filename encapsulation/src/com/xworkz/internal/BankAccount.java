@@ -2,11 +2,13 @@ package com.xworkz.internal;
 
 public class BankAccount {
 
-    public String name = "Yashas P";
-    private Long account_number = 78146164699L;
-    private String password = "asdf1234";
+    public String name ;
+
+    private Long account_number;
+    private String password;
 
     public Long getAccount_number(){
+        System.out.println(this.account_number);
         return account_number;
     }
 
@@ -15,6 +17,7 @@ public class BankAccount {
     }
 
     String getpassword(){
+        System.out.println(this.password);
         return password;
     }
 
