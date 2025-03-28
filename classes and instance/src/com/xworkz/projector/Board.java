@@ -8,4 +8,8 @@ public class Board {
         this.model = model;
         this.manufacturer = manufacturer;
     }
+    public void display(){
+        System.out.println("Displaying on board");
+
+    }
 }

@@ -9,4 +9,8 @@ public class Button {
         this.function = function;
     }
 
+    void turnON(){
+        System.out.println("Turn on projector");
+    }
+
 }

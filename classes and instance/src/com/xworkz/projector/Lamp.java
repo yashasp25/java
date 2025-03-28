@@ -8,4 +8,10 @@ public class Lamp {
         this.wattage = wattage;
         this.brand = brand;
     }
+
+    void flash(){
+        System.out.println("Use lamp to ");
+        Button button=new Button("Square", "Volume");
+        button.turnON();
+    }
 }
