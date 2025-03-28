@@ -8,4 +8,8 @@ public class Screw {
         this.type = type;
         this.size = size;
     }
+    Screw(){}
+    void hold(){
+        System.out.println("Hold using screw");
+    }
 }

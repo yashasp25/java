@@ -9,4 +9,7 @@ public class Lens {
         this.focalLength = focalLength;
     }
 
+    void filter(){
+        System.out.println("Activated lens");
+    }
 }

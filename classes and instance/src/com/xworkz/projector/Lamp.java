@@ -11,7 +11,7 @@ public class Lamp {
 
     void flash(){
         System.out.println("Use lamp to ");
-        Button button=new Button("Square", "Volume");
+        Button button=new Button();
         button.turnON();
     }
 }

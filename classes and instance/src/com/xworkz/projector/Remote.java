@@ -8,4 +8,8 @@ public class Remote {
         this.brand = brand;
         this.cell = cell;
     }
+
+    void operate(){
+        System.out.println("Use projector using remote");
+    }
 }

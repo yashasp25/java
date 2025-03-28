@@ -10,6 +10,7 @@ public class Board {
     }
     public void display(){
         System.out.println("Displaying on board");
-
+        Screw screw = new Screw();
+        screw.hold();
     }
 }
