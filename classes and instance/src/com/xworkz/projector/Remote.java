@@ -11,5 +11,7 @@ public class Remote {
 
     void operate(){
         System.out.println("Use projector using remote");
+        Button button = new Button();
+        button.turnON();
     }
 }

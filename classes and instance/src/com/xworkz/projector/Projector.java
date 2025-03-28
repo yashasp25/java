@@ -25,7 +25,12 @@ public class Projector {
 
     void startProjector() {
         System.out.println("Start Projection");
-
+        remote.operate();
+        panel.switches();
+        port.plug();
+        lens.filter();
+        board.display();
+        wire.numbers();
     }
 
     public static void main(String[] args) {
