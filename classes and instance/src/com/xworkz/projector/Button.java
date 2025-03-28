@@ -8,4 +8,5 @@ public class Button {
         this.shape = shape;
         this.function = function;
     }
+
 }
