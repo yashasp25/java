@@ -1,23 +1,27 @@
 package com.xworkz.inheritance.internal;
 
 public class Vehicle {
-    void startEngine() {
+    public Vehicle() {
+        System.out.println("Constructor in Vehicle");
+    }
+
+    public void startEngine() {
         System.out.println("Vehicle: Engine started.");
     }
 
-    void stopEngine() {
+    public void stopEngine() {
         System.out.println("Vehicle: Engine stopped.");
     }
 
-    void accelerate() {
+    public void accelerate() {
         System.out.println("Vehicle: Accelerating...");
     }
 
-    void brake() {
+    public void brake() {
         System.out.println("Vehicle: Braking...");
     }
 
-    void honk() {
+    public void honk() {
         System.out.println("Vehicle: Honking...");
     }
 }
