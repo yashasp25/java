@@ -4,6 +4,11 @@ import com.xworkz.inheritance.internal.*;
 
 public class VehicleRunner {
     public static void main(String[] args) {
+        Vehicle vehicle = new Vehicle();
+        vehicle.brake();
+        vehicle.accelerate();
+        vehicle.startEngine();
+
     Airplane airplane = new Airplane();
         airplane.startEngine();
         airplane.accelerate();
