@@ -4,12 +4,13 @@ import com.xworkz.inheritance.internal.*;
 
 public class SubjectRunner {
     public static void main(String[] args) {
-        DataStructures ds = new DataStructures();
-        ds.study();
-        ds.takeExam();
-        ds.submitAssignment();
-        ds.discuss();
-        ds.research();
+        DataStructures dataStructures = new DataStructures();
+        dataStructures.study();
+        dataStructures.takeExam();
+        dataStructures.submitAssignment();
+        dataStructures.discuss();
+        dataStructures.research();
+
         DBMS dbms = new DBMS();
         dbms.study();
         dbms.takeExam();
@@ -24,60 +25,60 @@ public class SubjectRunner {
         oops.discuss();
         oops.research();
 
-        OperatingSystems os = new OperatingSystems();
-        os.study();
-        os.takeExam();
-        os.submitAssignment();
-        os.discuss();
-        os.research();
+        OperatingSystems operatingSystems = new OperatingSystems();
+        operatingSystems.study();
+        operatingSystems.takeExam();
+        operatingSystems.submitAssignment();
+        operatingSystems.discuss();
+        operatingSystems.research();
 
-        ComputerNetworks cn = new ComputerNetworks();
-        cn.study();
-        cn.takeExam();
-        cn.submitAssignment();
-        cn.discuss();
-        cn.research();
+        ComputerNetworks computerNetworks = new ComputerNetworks();
+        computerNetworks.study();
+        computerNetworks.takeExam();
+        computerNetworks.submitAssignment();
+        computerNetworks.discuss();
+        computerNetworks.research();
 
-        Algorithms algo = new Algorithms();
-        algo.study();
-        algo.takeExam();
-        algo.submitAssignment();
-        algo.discuss();
-        algo.research();
+        Algorithms algorithms = new Algorithms();
+        algorithms.study();
+        algorithms.takeExam();
+        algorithms.submitAssignment();
+        algorithms.discuss();
+        algorithms.research();
 
-        AI ai = new AI();
-        ai.study();
-        ai.takeExam();
-        ai.submitAssignment();
-        ai.discuss();
-        ai.research();
+        AI artificialIntelligence = new AI();
+        artificialIntelligence.study();
+        artificialIntelligence.takeExam();
+        artificialIntelligence.submitAssignment();
+        artificialIntelligence.discuss();
+        artificialIntelligence.research();
 
-        SoftwareEngineering se = new SoftwareEngineering();
-        se.study();
-        se.takeExam();
-        se.submitAssignment();
-        se.discuss();
-        se.research();
+        SoftwareEngineering softwareEngineering = new SoftwareEngineering();
+        softwareEngineering.study();
+        softwareEngineering.takeExam();
+        softwareEngineering.submitAssignment();
+        softwareEngineering.discuss();
+        softwareEngineering.research();
 
-        WebDevelopment web = new WebDevelopment();
-        web.study();
-        web.takeExam();
-        web.submitAssignment();
-        web.discuss();
-        web.research();
+        WebDevelopment webDevelopment = new WebDevelopment();
+        webDevelopment.study();
+        webDevelopment.takeExam();
+        webDevelopment.submitAssignment();
+        webDevelopment.discuss();
+        webDevelopment.research();
 
-        CyberSecurity cyber = new CyberSecurity();
-        cyber.study();
-        cyber.takeExam();
-        cyber.submitAssignment();
-        cyber.discuss();
-        cyber.research();
+        CyberSecurity cyberSecurity = new CyberSecurity();
+        cyberSecurity.study();
+        cyberSecurity.takeExam();
+        cyberSecurity.submitAssignment();
+        cyberSecurity.discuss();
+        cyberSecurity.research();
 
-        MachineLearning ml = new MachineLearning();
-        ml.study();
-        ml.takeExam();
-        ml.submitAssignment();
-        ml.discuss();
-        ml.research();
+        MachineLearning machineLearning = new MachineLearning();
+        machineLearning.study();
+        machineLearning.takeExam();
+        machineLearning.submitAssignment();
+        machineLearning.discuss();
+        machineLearning.research();
     }
 }
