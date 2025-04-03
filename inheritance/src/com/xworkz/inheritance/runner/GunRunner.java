@@ -5,6 +5,13 @@ import com.xworkz.inheritance.internal.*;
 public class GunRunner {
     public static void main(String[] args) {
 
+        Gun gun = new Gun();
+        gun.shoot();
+        gun.reload();
+        gun.aim();
+        gun.switchMode();
+        gun.inspect();
+
         M416 m416 = new M416();
         m416.shoot();
         m416.reload();
