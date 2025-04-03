@@ -1,6 +1,6 @@
 package com.xworkz.inheritance.internal;
 
-public class SoloLeveling {
+public class SoloLeveling extends Anime{
         public SoloLeveling() {
             super();
             System.out.println("Constructor in Solo Leveling");
