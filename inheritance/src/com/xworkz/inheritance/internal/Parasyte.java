@@ -5,4 +5,5 @@ public class Parasyte extends Anime {
         super();
         System.out.println("Constructor in Parasyte");
     }
+    
 }
