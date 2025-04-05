@@ -12,6 +12,13 @@ public class AnimeRunner {
         anime.discuss();
         anime.collectMerchandise();
 
+        Anime anime1 = new OnePiece();
+        anime1.watch();
+        anime1.review();
+        anime1.recommend();
+        anime1.discuss();
+        anime1.collectMerchandise();
+
         OnePiece onePiece = new OnePiece();
         onePiece.watch();
         onePiece.review();
