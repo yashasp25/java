@@ -12,6 +12,13 @@ public class GunRunner {
         gun.switchMode();
         gun.inspect();
 
+        Gun gun1 = new M416();
+        gun1.shoot();
+        gun1.reload();
+        gun1.aim();
+        gun1.switchMode();
+        gun1.inspect();
+
         M416 m416 = new M416();
         m416.shoot();
         m416.reload();
