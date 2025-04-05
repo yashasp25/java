@@ -8,6 +8,10 @@ public class DeviceRunner {
         device.powerOn();
         device.connectToWifi();
 
+        Device device1 = new Laptop();
+        device1.powerOn();
+        device1.connectToWifi();
+
         Laptop laptop = new Laptop();
         laptop.displayInfo();
         laptop.restart();
