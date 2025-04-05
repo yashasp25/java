@@ -5,4 +5,25 @@ public class Kar98k extends Gun {
         super();
         System.out.println("Constructor in Kar98k");
     }
+
+    @Override
+    public void shoot() {
+        System.out.println("Gun: Shooting...in Kar98k");
+    }
+    @Override
+    public void reload() {
+        System.out.println("Gun: Reloading...in Kar98k");
+    }
+    @Override
+    public void aim() {
+        System.out.println("Gun: Aiming...in Kar98k");
+    }
+    @Override
+    public void switchMode() {
+        System.out.println("Gun: Switching fire mode...in Kar98k");
+    }
+    @Override
+    public void inspect() {
+        System.out.println("Gun: Inspecting weapon...in Kar98k");
+    }
 }
