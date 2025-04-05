@@ -4,6 +4,21 @@ import com.xworkz.inheritance.internal.*;
 
 public class AnimalRunner {
     public static void main(String[] args) {
+
+        Animal animal = new Animal();
+        animal.eat();
+        animal.sleep();
+        animal.makeSound();
+        animal.move();
+        animal.breathe();
+
+        Animal animal1 = new Dog();
+        animal1.eat();
+        animal1.sleep();
+        animal1.makeSound();
+        animal1.move();
+        animal1.breathe();
+
         Dog dog = new Dog();
         dog.eat();
         dog.sleep();

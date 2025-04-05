@@ -11,6 +11,13 @@ public class ClothingRunner {
         clothing.iron();
         clothing.fold();
 
+        Clothing clothing1 = new Shirt();
+        clothing1.wear();
+        clothing1.wash();
+        clothing1.dry();
+        clothing1.iron();
+        clothing1.fold();
+
         Shirt shirt = new Shirt();
         shirt.wear();
         shirt.wash();
