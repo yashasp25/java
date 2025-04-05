@@ -11,6 +11,20 @@ public class SubjectRunner {
         dataStructures.discuss();
         dataStructures.research();
 
+        Subject subject = new Subject();
+        subject.study();
+        subject.takeExam();
+        subject.submitAssignment();
+        subject.discuss();
+        subject.research();
+
+        Subject subject1 = new DataStructures();
+        subject1.study();
+        subject1.takeExam();
+        subject1.submitAssignment();
+        subject1.discuss();
+        subject1.research();
+
         DBMS dbms = new DBMS();
         dbms.study();
         dbms.takeExam();
