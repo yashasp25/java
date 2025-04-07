@@ -10,4 +10,13 @@ public class MRFTyre extends Tyre{
     public void expand(){
         System.out.println("Expanding rubber in MRFtyre");
     }
+
+    @Override
+    public void compress(){
+        System.out.println("Compressing in tyre in mrf");
+    }
+
+    public void radial(){
+        System.out.println("radial in mrf");
+    }
 }

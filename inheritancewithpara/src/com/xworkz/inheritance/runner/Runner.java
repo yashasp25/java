@@ -17,6 +17,9 @@ public class Runner {
         rubber1.expand();
 
         MRFTyre mrfTyre = new MRFTyre();
+        mrfTyre.expand();
+        mrfTyre.compress();
+
 
         ArmyVehicle armyVehicle =new ArmyVehicle();
         armyVehicle.wheel(rubber);
