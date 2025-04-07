@@ -26,4 +26,7 @@ public class Famas extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in FAMAS");
     }
+    public void famasFire() {
+        System.out.println("Firing with Famas.");
+    }
 }

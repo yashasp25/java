@@ -26,4 +26,7 @@ public class AUG extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in AUG");
     }
+    public void augFire() {
+        System.out.println("Firing with AUG.");
+    }
 }

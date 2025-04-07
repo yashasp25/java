@@ -26,4 +26,7 @@ public class M249 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in M249");
     }
+    public void m249Fire() {
+        System.out.println("Firing with M249.");
+    }
 }

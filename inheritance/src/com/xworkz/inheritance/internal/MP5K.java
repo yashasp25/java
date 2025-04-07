@@ -26,4 +26,7 @@ public class MP5K extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in MP5K");
     }
+    public void mp5kFire() {
+        System.out.println("Firing with MP5K.");
+    }
 }

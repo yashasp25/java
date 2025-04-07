@@ -26,4 +26,7 @@ public class P90 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in P90");
     }
+    public void p90Fire() {
+        System.out.println("Firing with P90.");
+    }
 }

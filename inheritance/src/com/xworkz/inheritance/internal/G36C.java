@@ -26,4 +26,7 @@ public class G36C extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in G36C");
     }
+    public void g36cFire() {
+        System.out.println("Firing with G36C.");
+    }
 }

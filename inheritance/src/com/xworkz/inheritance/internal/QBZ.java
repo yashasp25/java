@@ -26,4 +26,7 @@ public class QBZ extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in QBZ");
     }
+    public void qbzFire() {
+        System.out.println("Firing with QBZ.");
+    }
 }

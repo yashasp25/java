@@ -26,4 +26,7 @@ public class Groza extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in Groza");
     }
+    public void grozaFire() {
+        System.out.println("Firing with Groza.");
+    }
 }

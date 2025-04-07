@@ -26,4 +26,7 @@ public class Mini14 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in Mini14");
     }
+    public void mini14Fire() {
+        System.out.println("Firing with Mini-14.");
+    }
 }

@@ -26,4 +26,7 @@ public class Bizon extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in Bizon");
     }
+    public void bizonFire() {
+        System.out.println("Firing with Bizon.");
+    }
 }

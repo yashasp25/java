@@ -26,4 +26,7 @@ public class S1897 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in S1897");
     }
+    public void s1897Fire() {
+        System.out.println("Firing with S1897.");
+    }
 }

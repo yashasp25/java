@@ -26,4 +26,7 @@ public class Mk47 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in MK47");
     }
+    public void mk47Fire() {
+        System.out.println("Firing with Mk47.");
+    }
 }

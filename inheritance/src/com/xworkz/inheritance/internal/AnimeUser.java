@@ -8,9 +8,12 @@ public class AnimeUser {
         anime.discuss();
         anime.collectMerchandise();
 
-        if (anime instanceof OnePiece onePiece) {
+        if(anime instanceof OnePiece){
+            OnePiece onePiece = (OnePiece) anime;
             onePiece.findOnePiece();
         }
+
+
         if (anime instanceof Naruto naruto) {
             naruto.useRasengan();
         }
@@ -83,5 +86,6 @@ public class AnimeUser {
         if (anime instanceof MobPsycho100 mob) {
             mob.usePsychicPowers();
         }
+
     }
 }

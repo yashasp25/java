@@ -26,4 +26,7 @@ public class S686 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in S686");
     }
+    public void s686Fire() {
+        System.out.println("Firing with S686.");
+    }
 }

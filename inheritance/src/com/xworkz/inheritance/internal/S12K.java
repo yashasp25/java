@@ -26,4 +26,7 @@ public class S12K extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in S12K");
     }
+    public void s12kFire() {
+        System.out.println("Firing with S12K.");
+    }
 }

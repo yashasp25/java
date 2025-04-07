@@ -26,4 +26,7 @@ public class Kar98k extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in Kar98k");
     }
+    public void kar98kFire() {
+        System.out.println("Firing with Kar98k.");
+    }
 }

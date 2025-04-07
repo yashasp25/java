@@ -26,4 +26,7 @@ public class Vector extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in Vector");
     }
+    public void vectorFire() {
+        System.out.println("Firing with Vector.");
+    }
 }

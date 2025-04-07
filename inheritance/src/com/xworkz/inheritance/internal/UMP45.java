@@ -26,4 +26,7 @@ public class UMP45 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in UMP45");
     }
+    public void ump45Fire() {
+        System.out.println("Firing with UMP45.");
+    }
 }

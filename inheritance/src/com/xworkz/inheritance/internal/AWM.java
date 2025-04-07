@@ -26,4 +26,7 @@ public class AWM extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in AWM");
     }
+    public void awmFire() {
+        System.out.println("Firing with AWM.");
+    }
 }

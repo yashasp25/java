@@ -26,4 +26,7 @@ public class SCARL extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in SCAR-L");
     }
+    public void scarlFire() {
+        System.out.println("Firing with SCAR-L.");
+    }
 }

@@ -26,4 +26,7 @@ public class DP28 extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in DP28");
     }
+    public void dp28Fire() {
+        System.out.println("Firing with DP-28.");
+    }
 }
