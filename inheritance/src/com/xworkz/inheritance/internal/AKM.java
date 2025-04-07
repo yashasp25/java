@@ -26,4 +26,5 @@ public class AKM extends Gun {
     public void inspect() {
         System.out.println("Gun: Inspecting weapon...in AKM");
     }
+
 }
