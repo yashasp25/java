@@ -26,4 +26,7 @@ public class MobPsycho100 extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in MP100");
     }
+    public void usePsychicPowers() {
+        System.out.println("Mob unleashes his psychic powers.");
+    }
 }

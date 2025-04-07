@@ -26,4 +26,7 @@ public class FullmetalAlchemist extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in FA");
     }
+    public void humanTransmutation() {
+        System.out.println("Edward attempts human transmutation.");
+    }
 }

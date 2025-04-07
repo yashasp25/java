@@ -26,4 +26,7 @@ public class CowboyBebop extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in CWB");
     }
+    public void collectBounty() {
+        System.out.println("Spike goes on a bounty hunt.");
+    }
 }

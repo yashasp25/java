@@ -26,4 +26,8 @@ public class VinlandSaga extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in VinlandSaga");
     }
+
+    public void vikingRaid() {
+        System.out.println("Thorfinn joins a Viking raid.");
+    }
 }

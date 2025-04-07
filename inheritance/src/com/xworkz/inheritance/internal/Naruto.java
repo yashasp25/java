@@ -25,4 +25,8 @@ public class Naruto extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in Naruto");
     }
+
+    public void useRasengan() {
+        System.out.println("Using Rasengan technique!");
+    }
 }

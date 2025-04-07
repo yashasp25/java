@@ -25,5 +25,7 @@ public class Parasyte extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in Parasyte");
     }
-
+    public void useParasiteArm() {
+        System.out.println("Shinichi uses his parasite arm.");
+    }
 }

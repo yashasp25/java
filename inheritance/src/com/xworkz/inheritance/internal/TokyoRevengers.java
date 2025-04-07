@@ -26,4 +26,7 @@ public class TokyoRevengers extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in TR");
     }
+    public void timeTravel() {
+        System.out.println("Takemichi travels back in time.");
+    }
 }

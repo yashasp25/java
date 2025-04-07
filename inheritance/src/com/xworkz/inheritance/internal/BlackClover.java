@@ -25,4 +25,8 @@ public class BlackClover extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in BC");
     }
+
+    public void summonMagicBook() {
+        System.out.println("Asta summons his magic grimoire.");
+    }
 }

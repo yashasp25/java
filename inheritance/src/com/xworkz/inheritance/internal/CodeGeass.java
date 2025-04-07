@@ -26,4 +26,7 @@ public class CodeGeass extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in CodeGeass");
     }
+    public void activateGeass() {
+        System.out.println("Lelouch activates his Geass.");
+    }
 }

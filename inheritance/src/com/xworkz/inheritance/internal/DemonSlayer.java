@@ -26,4 +26,7 @@ public class DemonSlayer extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in Demon");
     }
+    public void useNichirinSword() {
+        System.out.println("Tanjiro swings his Nichirin sword.");
+    }
 }

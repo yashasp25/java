@@ -26,4 +26,7 @@ public class ChainsawMan extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in Chainsaw");
     }
+    public void chainsawTransform() {
+        System.out.println("Denji transforms into Chainsaw Man.");
+    }
 }

@@ -26,4 +26,7 @@ public class Bleach extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in Bleach");
     }
+    public void useBankai() {
+        System.out.println("Ichigo activates his Bankai.");
+    }
 }

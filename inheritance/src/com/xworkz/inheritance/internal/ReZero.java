@@ -26,4 +26,7 @@ public class ReZero extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in ReZero");
     }
+    public void returnByDeath() {
+        System.out.println("Subaru returns by death.");
+    }
 }

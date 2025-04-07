@@ -26,4 +26,7 @@ public class NeonGenesisEvangelion extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in NGE");
     }
+    public void pilotEvaUnit() {
+        System.out.println("Shinji pilots the Eva Unit.");
+    }
 }

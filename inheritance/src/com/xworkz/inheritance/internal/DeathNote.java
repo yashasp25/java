@@ -25,4 +25,9 @@ public class DeathNote extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in DeathNote");
     }
+
+    public void writeInDeathNote() {
+        System.out.println("Light Yagami writes a name in the Death Note.");
+    }
+
 }

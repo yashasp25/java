@@ -25,4 +25,8 @@ public class OnePunchMan extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in OPM");
     }
+
+    public void seriousPunch() {
+        System.out.println("Saitama uses Serious Punch!");
+    }
 }

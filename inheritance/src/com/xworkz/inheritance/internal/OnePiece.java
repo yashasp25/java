@@ -26,4 +26,8 @@ public class OnePiece extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in OP");
     }
+
+    public void findOnePiece() {
+        System.out.println("Finding the legendary One Piece treasure...");
+    }
 }

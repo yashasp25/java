@@ -26,4 +26,5 @@ public class AI extends Subject {
     public void research() {
         System.out.println("Subject: Researching new topics...in AI");
     }
+
 }

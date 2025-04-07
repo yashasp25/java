@@ -26,4 +26,7 @@ public class FairyTail extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in FT");
     }
+    public void useFireDragonMagic() {
+        System.out.println("Natsu unleashes Fire Dragon magic.");
+    }
 }

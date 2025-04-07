@@ -25,4 +25,8 @@ public class MyHeroAcademia extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in MHA");
     }
+
+    public void useOneForAll() {
+        System.out.println("Deku activates One For All.");
+    }
 }

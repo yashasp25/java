@@ -26,4 +26,8 @@ public class DragonBallZ extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in DBZ");
     }
+
+    public void kamehameha() {
+        System.out.println("Goku launches a Kamehameha wave.");
+    }
 }

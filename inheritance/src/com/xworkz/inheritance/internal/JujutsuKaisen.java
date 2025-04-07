@@ -25,4 +25,8 @@ public class JujutsuKaisen extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in JJK");
     }
+
+    public void useCursedTechnique() {
+        System.out.println("Yuji uses a cursed technique.");
+    }
 }

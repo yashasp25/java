@@ -26,4 +26,7 @@ public class HunterXHunter extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in HXH");
     }
+    public void useNen() {
+        System.out.println("Gon uses his Nen ability.");
+    }
 }

@@ -25,4 +25,7 @@ public class AttackOnTitan extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in AOT");
     }
+    public void transformTitan() {
+        System.out.println("Eren transforms into a Titan.");
+    }
 }

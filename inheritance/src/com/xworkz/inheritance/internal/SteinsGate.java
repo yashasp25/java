@@ -26,4 +26,7 @@ public class SteinsGate extends Anime {
     public void collectMerchandise() {
         System.out.println("Collecting anime merchandise...in StiensGate");
     }
+    public void hackTimeLine() {
+        System.out.println("Okabe hacks the timeline.");
+    }
 }
