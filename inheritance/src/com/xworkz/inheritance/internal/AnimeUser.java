@@ -1,7 +1,11 @@
 package com.xworkz.inheritance.internal;
 
 public class AnimeUser {
-    public AnimeUser(Anime anime){
+    public AnimeUser() {
+        System.out.println("Anime user const");
+    }
+
+    public void accountuse(Anime anime) {
         anime.watch();
         anime.review();
         anime.recommend();
@@ -109,4 +113,5 @@ public class AnimeUser {
             mob.usePsychicPowers();
         }
     }
+}
 }

@@ -200,5 +200,38 @@ public class AnimeRunner {
         mobPsycho100.recommend();
         mobPsycho100.discuss();
         mobPsycho100.collectMerchandise();
+
+        AnimeUser animeUser = new AnimeUser();
+
+        animeUser.accountuse(anime);
+        animeUser.accountuse(mobPsycho100);
+        animeUser.accountuse(reZero);
+        animeUser.accountuse(onePiece);
+        animeUser.accountuse(onePunchMan);
+        animeUser.accountuse(naruto);
+        animeUser.accountuse(attackOnTitan);
+        animeUser.accountuse(deathNote);
+        animeUser.accountuse(demonSlayer);
+        animeUser.accountuse(chainsawMan);
+        animeUser.accountuse(cowboyBebop);
+        animeUser.accountuse(codeGeass);
+        animeUser.accountuse(bleach);
+        animeUser.accountuse(blackClover);
+        animeUser.accountuse(dragonBallZ);
+        animeUser.accountuse(parasyte);
+        animeUser.accountuse(myHeroAcademia);
+        animeUser.accountuse(soloLeveling);
+        animeUser.accountuse(steinsGate);
+        animeUser.accountuse(swordArtOnline);
+        animeUser.accountuse(vinlandSaga);
+        animeUser.accountuse(tokyoRevengers);
+        animeUser.accountuse(fairyTail);
+        animeUser.accountuse(fullmetalAlchemist);
+        animeUser.accountuse(neonGenesisEvangelion);
+        animeUser.accountuse(hunterXHunter);
+        animeUser.accountuse(jujutsuKaisen);
+
+
+
     }
 }
