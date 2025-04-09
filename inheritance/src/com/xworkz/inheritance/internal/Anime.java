@@ -1,8 +1,16 @@
 package com.xworkz.inheritance.internal;
 
 public class Anime {
-    public Anime() {
-        System.out.println("Constructor in Anime");
+
+    private int time;
+    private int episodes;
+    private String genre;
+
+    public Anime(int time,int episodes,String genre) {
+        this.time=time;
+        this.episodes=episodes;
+        this.genre = genre;
+        System.out.println("Constructor of anime");
     }
 
     public void watch() {
