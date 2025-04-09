@@ -5,7 +5,9 @@ import com.xworkz.inheritance.internal.*;
 public class AnimeRunner {
     public static void main(String[] args) {
 
-        Anime anime = new Anime();
+        Anime anime = new Anime(24,10,"Action");
+        System.out.println("Anime : " + anime.toString());
+
         anime.watch();
         anime.review();
         anime.recommend();
