@@ -1,8 +1,20 @@
 package com.xworkz.inheritance.internal;
 
 public class Vehicle {
-    public Vehicle() {
+
+    private String color;
+    private int wheels;
+    private int age;
+
+
+    public Vehicle(int age,int wheels,String color) {
+        this.age=age;
+        this.wheels=wheels;
+        this.color = color;
         System.out.println("Constructor in Vehicle");
+    }
+
+    public Vehicle() {
     }
 
     public void startEngine() {
