@@ -21,7 +21,7 @@ public class WebDevelopment extends Subject {
     public void discuss() {
         System.out.println("Subject: Discussing with peers...in web");
     }
-    @Override
+
     public void rewebarch() {
         System.out.println("Subject: Rewebarching new topics...in web");
     }

@@ -1,9 +1,20 @@
 package com.xworkz.inheritance.internal;
 
 public class Animal {
-    public Animal() {
+
+    private String color;
+    private int legs;
+    private int age;
+
+    Animal(){}
+
+    public Animal(int age,int legs,String color) {
+        this.age=age;
+        this.legs=legs;
+        this.color = color;
         System.out.println("Constructor in Animal");
     }
+
 
     public void eat() {
         System.out.println("Animal: Eating...");
