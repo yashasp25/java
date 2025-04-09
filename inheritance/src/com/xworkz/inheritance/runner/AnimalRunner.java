@@ -5,7 +5,9 @@ import com.xworkz.inheritance.internal.*;
 public class AnimalRunner {
     public static void main(String[] args) {
 
-        Animal animal = new Animal();
+        Animal animal = new Animal(70,4,"skin");
+        System.out.println("Animal : "+animal.toString());
+
         animal.eat();
         animal.sleep();
         animal.makeSound();
