@@ -14,7 +14,7 @@ public class Vehicle {
         System.out.println("Constructor in Vehicle");
     }
 
-    public Vehicle() {
+    Vehicle() {
     }
 
     public void startEngine() {
