@@ -6,6 +6,8 @@ public class Anime {
     private int episodes;
     private String genre;
 
+    Anime(){}
+
     public Anime(int time,int episodes,String genre) {
         this.time=time;
         this.episodes=episodes;

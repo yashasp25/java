@@ -2,9 +2,6 @@ package com.xworkz.inheritance.internal;
 
 public class AttackOnTitan extends Anime {
 
-    private int time;
-    private int episodes;
-    private String genre;
 
     public AttackOnTitan() {
         super();
