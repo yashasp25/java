@@ -5,7 +5,8 @@ import com.xworkz.inheritance.internal.*;
 public class GunRunner {
     public static void main(String[] args) {
 
-        Gun gun = new Gun();
+        Gun gun = new Gun(30,"weapon",10);
+        System.out.println("Gun "+gun.toString());
         gun.shoot();
         gun.reload();
         gun.aim();
