@@ -10,6 +10,7 @@ public class Gun {
         this.size=size;
         System.out.println("Constructor in Gun");
     }
+    Gun(){};
 
     public void shoot() {
         System.out.println("Gun: Shooting...");

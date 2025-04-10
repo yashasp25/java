@@ -6,6 +6,7 @@ public class VehicleRunner {
     public static void main(String[] args) {
         Vehicle vehicle = new Vehicle(70,4,"BLue");
         System.out.println("Vehicle : "+vehicle.toString());
+        System.out.println("Vehicle : "+vehicle.hashCode());
         vehicle.brake();
         vehicle.accelerate();
         vehicle.startEngine();
