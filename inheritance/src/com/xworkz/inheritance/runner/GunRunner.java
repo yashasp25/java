@@ -7,6 +7,7 @@ public class GunRunner {
 
         Gun gun = new Gun(30,"weapon",10);
         System.out.println("Gun "+gun.toString());
+
         gun.shoot();
         gun.reload();
         gun.aim();
