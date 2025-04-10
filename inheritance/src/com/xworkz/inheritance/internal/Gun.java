@@ -1,7 +1,13 @@
 package com.xworkz.inheritance.internal;
 
 public class Gun {
-    public Gun() {
+    int ammo;
+    String type;
+    int size;
+    public Gun(int ammo,String type,int size) {
+        this.ammo=ammo;
+        this.type=type;
+        this.size=size;
         System.out.println("Constructor in Gun");
     }
 
