@@ -16,8 +16,8 @@ public class ShirtRunner {
 
         TShirt tShirt2 = new TShirt();
         tShirt2.setSize(38);
-        tShirt2.setBrand("Soul");
-        tShirt2.setColor("Yello");
+        tShirt2.setBrand(" Soul");
+        tShirt2.setColor(" Yellow");
 
         System.out.println(tShirt.equals(tShirt1));
         System.out.println(tShirt.equals(tShirt2));
