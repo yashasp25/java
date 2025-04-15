@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-class Novel extends Book {
+public class Novel extends Book {
     Novel(String title, String author, int year) {
         super(title, author, year);
     }

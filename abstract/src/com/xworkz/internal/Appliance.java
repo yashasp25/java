@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-abstract class Appliance {
+public abstract class Appliance {
     abstract void turnOn();
 
     void plugIn() {

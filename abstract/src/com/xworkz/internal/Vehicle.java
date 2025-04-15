@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-abstract class Vehicle {
+public abstract class Vehicle {
     void fuelType() {
         System.out.println("Vehicle uses fuel.");
     }

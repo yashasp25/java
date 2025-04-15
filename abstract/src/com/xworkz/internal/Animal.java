@@ -1,5 +1,5 @@
 package com.xworkz.internal;
 
-abstract class Animal {
+public abstract class Animal {
     abstract void sound();
 }

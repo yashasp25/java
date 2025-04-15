@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-abstract class Employee {
+public abstract class Employee {
     String name;
     String department;
     double salary;

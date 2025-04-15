@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-class Manager extends Employee {
+public class Manager extends Employee {
     Manager(String name) {
         super(name);
     }

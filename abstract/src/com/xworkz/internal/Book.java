@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-abstract class Book {
+public abstract class Book {
     String title;
     String author;
     int year;
