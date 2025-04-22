@@ -8,6 +8,14 @@ public class ConnectorUser {
 
     public ConnectorUser(Connector connector){
         System.out.println("Constructor of ConnectorUser");
-        this
+        this.connector=connector;
     }
+
+    public void execute(){
+        System.out.println("Execute in ConnectorUser");
+        if(this.connector!=null){
+            this.connector.run();
+        }
+    }
+
 }
